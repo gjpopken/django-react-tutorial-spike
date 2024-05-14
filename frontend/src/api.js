@@ -1,6 +1,6 @@
 // Axios Interceptor 
 
-import axios from axios
+import axios from 'axios'
 import { ACCESS_TOKEN } from "./constants"
 
 const api = axios.create({
