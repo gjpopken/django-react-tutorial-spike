@@ -1,5 +1,7 @@
+import Form from "../components/Form"
+
 const Register = () => {
-    return (<>Register</>)
+    return (<><Form method='register' route='/api/user/register/'/></>)
 }
 
 export default Register
